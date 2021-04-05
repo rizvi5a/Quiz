@@ -13,7 +13,31 @@
 </head>
 <h1> Quiz</h1>
 <body>
+<header class="bg-secondary">Code Quiz</header>
+    <div class="conatiner">
+        <div class="row">
+            <div class="col-md-12">
+                <h3> Quiz's Instructions</h3>
+                <ul>
+                    <li> When a user presses start button, the questions are deployed</li>
+                    <li>Each question's allowable time is 15 seconds</li>
+                    <li>If the user enters wrong answer, the total time is reduced by 10 seconds</li>
+                </ul>
+                <div id="stored-score">
+                    <h3 id="timer">Timer </h3>
+                </div>
+<!-- Each question object in questions.js file hs four choices, seprate butons are set for each choice-->
+    <div id="quizblock" class=container>
+        <h3 id='questions'></h3>
 
+        <p><button class="btn btn-primary options" data-option="0" id="option-1"></button></p>
+        <p><button class="btn btn-primary options" data-option="1" id="option-2"></button></p>
+        <p><button class="btn btn-primary options" data-option="2" id="option-3"></button></p>
+        <p><button class="btn btn-primary options" data-option="3" id="option-4"></button></p>
+    </div>
+            </div> 
+        </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.js" 
     integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
