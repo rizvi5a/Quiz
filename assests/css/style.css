@@ -1,6 +1,19 @@
-body {
-    background-color: rgb(213, 241, 241);
+
+.feedback {
+    font-size: large;
+    background-color: cyan;
 }
-h1 {
-    color:burlywood
+.feedback1 {
+    background-color: rgb(9, 177, 23);
+}
+.feedback2 {
+    background-color: rgb(214, 137, 180);
+}
+.hide {
+    display:none;
+}
+
+#time {
+    color: rgb(240, 232, 230);
+    background-color:coral
 }
